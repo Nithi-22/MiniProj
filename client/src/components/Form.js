@@ -28,7 +28,7 @@ export default function Form() {
                     <option value="Savings" placeholder='Savings'>Savings</option>
                 </select>
                 <div className="input-group">
-                    <input type="text" {...register('amount')}  placeholder='Amount' className='form-input' />
+                    <input type="number" {...register('amount')}  placeholder='Amount' className='form-input' />
                 </div>
                 <div className="submit-btn">
                     <button className='border py-2 text-white bg-indigo-500 w-full'>Make Transaction</button>
