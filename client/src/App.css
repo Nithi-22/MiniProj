@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Open+Sans:wght@600&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+:root{
+  --color-yellow:#f9c74f;
+  --color-purple:#9d4edd;
+}
+
+*>*{
+  font-family: 'Fredoka', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.App {
+  text-align: center;
+  padding:4em 0;
+}
+
+.bg-yellow{
+  background-color: var(--color-yellow);
+}
+.bg-purple{
+  background-color: var(--color-purple);
+}
+.chart relative{
+  position:absolute;
+  left:0;
+  right:0;
+  top:40%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
